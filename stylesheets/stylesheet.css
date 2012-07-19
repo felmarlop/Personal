@@ -129,6 +129,16 @@ a {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
+#mail{
+	border:outset;
+	border-radius:10px 10px 10px 10px;
+	border-color:#00CCFF;
+	text-align:center;
+	width:12em;
+	position:relative;
+	bottom:27em;
+	left:48em;
+}
 
 footer a:hover {
   color: #43adff;
