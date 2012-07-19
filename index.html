@@ -26,36 +26,42 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>En construcción...Sígueme en Twitter.</h3>
         <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 6,
-  interval: 30000,
-  width: 400,
-  height: 600,
-  theme: {
-    shell: {
-      background: '#333333',
-      color: '#09b3ab'
-    },
-    tweets: {
-      background: '#000000',
-      color: '#09b3ab',
-      links: '#f5f5f5'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: false,
-    behavior: 'default'
-  }
-}).render().setUser('felixmartin7').start();
-</script>
+        <div id="twitter">
+        	<h3>En construcción...Sígueme en Twitter.</h3>
+        	<script>
+			  new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 6,
+			  interval: 30000,
+			  width: 400,
+			  height: 600,
+			  theme: {
+			    shell: {
+			      background: '#333333',
+			      color: '#09b3ab'
+			    },
+			    tweets: {
+			      background: '#000000',
+			      color: '#09b3ab',
+			      links: '#f5f5f5'
+			    }
+			  },
+			  features: {
+			    scrollbar: false,
+			    loop: false,
+			    live: false,
+			    behavior: 'default'
+			  }
+			}).render().setUser('felixmartin7').start();
+			</script>	
+        </div>
       </section>
+      <div id="mail">
+        	 <h3>Contacto:</h3>
+        	 <a href="mailto:felix_ml@hotmail.com?Subject=Hola">Enviar E-Mail</a>
+        </div>
     </div>
 
     <!-- FOOTER  -->
