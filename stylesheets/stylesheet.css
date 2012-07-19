@@ -129,6 +129,11 @@ a {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
+#mailTo{
+  border-radius: 10px 10px 0px 0px;
+  border-color:grey;
+  float:right;
+}
 
 footer a:hover {
   color: #43adff;
