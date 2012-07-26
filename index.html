@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Personal : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>FML Page</title>
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/felmarlop/Personal">View on GitHub</a>
+
+          <img src="images/cabecera.jpg" width="100" height="50"/>
+          <h2 id="project_tagline">Navas de la concepción</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+    	<h3 id="contruccion">En construcción...</h3>
+      <section id="main_content" class="inner">
+        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <div id="twitter">
+        	<h3>Sígueme en Twitter.</h3>
+        	<script>
+			  new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 6,
+			  interval: 30000,
+			  width: 250,
+			  height: 600,
+			  theme: {
+			    shell: {
+			      background: '#333333',
+			      color: '#09b3ab'
+			    },
+			    tweets: {
+			      background: '#000000',
+			      color: '#09b3ab',
+			      links: '#f5f5f5'
+			    }
+			  },
+			  features: {
+			    scrollbar: false,
+			    loop: false,
+			    live: false,
+			    behavior: 'default'
+			  }
+			}).render().setUser('felixmartin7').start();
+			</script>	
+        </div>
+      </section>
+      <img id="img" src="images/hr_vertical.png">
+      <div id="mail">
+        	 <h3>Contacto:</h3>
+        	 <a href="mailto:felix_ml@hotmail.com?Subject=Hola">Enviar E-Mail</a>
+        </div>
+      <div id="proyectos">
+        	 <h3>Proyectos:</h3>
+        	 <a >Proximamente...</a>
+      </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+       <p>&copy; F.MARTÍN.L 7.</p> 
+       <p>All rights reserved.</p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
